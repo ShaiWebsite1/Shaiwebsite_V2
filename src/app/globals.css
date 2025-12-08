@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  background: #fff;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: var(--poppins) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--red-hat-text);
+}
+
+img {
+  height: auto;
+}
+
+.demoBtnLink {
+  text-decoration: none;
+}
+
+.primaryBtn {
+  padding: 0.75rem 0.75rem 0.75rem 1.25rem;
+  border-radius: 44px;
+  background: #FF006F;
+  color: #FFF;
+  text-align: center;
+  font-family: "Red Hat Text";
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  gap: 0.625rem;
+  overflow: hidden;
+}
+
+.primaryBtn:hover svg {
+  animation: moveAnimate 0.4s ease-out;
+}
+
+@keyframes moveAnimate {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  48% {
+    opacity: 1;
+    transform: translate(25px, -25px); /* right-top */
+  }
+  49% {
+    opacity: 0;
+    transform: translate(25px, -25px);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-25px, 25px); /* left-bottom */
+  }
+  51% {
+    opacity: 1;
+    transform: translate(-25px, 25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 10px !important;
+  }
+}

@@ -1,0 +1,95 @@
+.glimpseSectionToggle {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.glimpseSectionToggleTab {
+  padding: 0.75rem 1.25rem;
+  color: #ad93bc;
+  text-align: center;
+  font-family: "Red Hat Text";
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.glimpseSectionToggleTab.active {
+  color: #200a2b;
+}
+
+.glimpseSectionToggleLine {
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: 0px;
+  background: #ff006f;
+  transition: all 0.3s ease-in-out;
+}
+
+.glimpseSectionContentWrap {
+  position: relative;
+  max-width: 342px;
+  width: 100%;
+  margin-top: 2.75rem;
+  margin-bottom: 3.5rem;
+}
+
+.glimpseSectionContent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.glimpseSectionContent.active {
+  position: relative;
+  opacity: 1;
+}
+
+.glimpseSectionImg {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.glimpseSectionText {
+  position: absolute;
+  padding: 0.75rem 1rem;
+  border-radius: 38.4px;
+  background: #fff;
+  box-shadow: 3px 4px 20px 0 rgba(85, 34, 143, 0.2);
+  color: #411354;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: -0.64px;
+}
+
+@media only screen and (max-width: 900px) {
+  .glimpseSectionContentWrap {
+    margin: 0px;
+  }
+
+  .glimpseSectionContent {
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+
+  .glimpseSectionImg {
+    border-radius: 0px;
+  }
+
+  .glimpseSectionText{
+    position: static;
+    padding: 1.667rem 1.334rem;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 1.2rem;
+    max-width: 100% !important;
+    margin-bottom: 1px;
+  }
+}

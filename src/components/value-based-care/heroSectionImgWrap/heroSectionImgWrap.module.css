@@ -1,0 +1,50 @@
+.heroSectionImgWrap {
+  position: relative;
+}
+
+.heroSectionBaseImg {
+  width: 100%;
+}
+
+.heroSectionImg1Wrap {
+  position: absolute;
+  width: 87.3%;
+  top: 2.8%;
+  right: 0%;
+}
+
+.heroSectionImg2Wrap {
+  position: absolute;
+  width: 50.5%;
+  top: 0%;
+  left: 2%;
+}
+
+.heroSectionImgInnerWrap {
+  position: relative;
+}
+
+.heroSectionImg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.heroSectionImg.active {
+  opacity: 1;
+}
+
+.heroSectionImg1 {
+  background-color: #e7d8f3;
+}
+
+.heroSectionImg2.rotation1 {
+  transform: rotate(-12deg);
+}
+
+.heroSectionImg2.rotation2 {
+  transform: rotate(12deg);
+}

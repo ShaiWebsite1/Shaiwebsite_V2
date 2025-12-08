@@ -1,0 +1,745 @@
+/* hero section  */
+.heroSectionWrap {
+  padding: 9.375rem 20px 0px;
+  background: #f7ebfb;
+}
+
+.heroSection {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.heroSectionLeft {
+  width: 50%;
+}
+
+.heroSectionTitle {
+  color: #ff006f;
+  font-family: "Red Hat Text";
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.heroSectionHeading1 {
+  color: #1B0C27;
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 3.313rem;
+  letter-spacing: -1.92px;
+  margin-bottom: 0px;
+}
+
+.heroSectionHeading2 {
+  color: #7030A0;
+  font-size: 1.95rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.heroSectionDesc {
+  color: #37184E;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.18px;
+  margin-bottom: 3rem;
+}
+
+.heroSectionRight {
+  width: 50%;
+}
+
+/* feature section  */
+.featureSection {
+  padding: 5rem 20px 10rem;
+}
+
+.featureSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -2px;
+  max-width: 800px;
+  margin-bottom: 9rem;
+}
+
+.featureSectionCardList {
+  gap: 10rem;
+  max-width: 1192px;
+  width: 100%;
+}
+
+.featureSectionCard {
+  gap: 1.875rem;
+}
+
+.featureSectionCardRev {
+  flex-direction: row-reverse;
+}
+
+.featureSectionCardLeft {
+  width: 50%;
+}
+
+.featureSectionCardHeading {
+  color: #200a2b;
+  font-weight: 600;
+  line-height: 2.375rem;
+  letter-spacing: -1.28px;
+  margin-bottom: 2.75rem;
+}
+
+.featureSectionCardPointList1 {
+  gap: 1.875rem;
+}
+
+.featureSectionCardPointList1 .featureSectionCardPoint {
+  width: calc(50% - (1.875rem / 2));
+}
+
+.featureSectionCardPointList1 .featureSectionCardPointIcon {
+  min-width: 1.5rem;
+  width: 1.5rem;
+  margin-right: 4px;
+}
+
+.featureSectionCardPointList1 .featureSectionCardPointHeading {
+  font-family: "Red Hat Text";
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: #37184E;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardPointList1 .featureSectionCardPointDesc {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #37184E;
+  margin-top: 0.625rem;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardPointList2 {
+  gap: 1.5rem;
+}
+
+.featureSectionCardPointList2 .featureSectionCardPoint {
+  width: calc(50% - 0.75rem);
+  gap: 0.625rem;
+}
+
+.featureSectionCardPointList2 .featureSectionCardPoint svg {
+  min-width: 1.5rem;
+  margin-top: 4px;
+}
+
+.featureSectionCardPointList2 .featureSectionCardPointText {
+  color: #37184E;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardPointList3 {
+  gap: 1.875rem;
+}
+
+.featureSectionCardPointList3 .featureSectionCardPoint {
+  width: calc(50% - (1.875rem / 2));
+}
+
+.featureSectionCardPointList3 .featureSectionCardPointIcon {
+  min-width: 1.5rem;
+  width: 1.5rem;
+  margin-right: 4px;
+}
+
+.featureSectionCardPointList3 .featureSectionCardPointHeading {
+  font-family: "Red Hat Text";
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: #37184E;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardPointList3 .featureSectionCardPointDescList {
+  margin-top: 1.25rem;
+  gap: 0.75rem;
+}
+
+.featureSectionCardPointList3 .featureSectionCardPointDescIcon {
+  min-width: 2px;
+  height: 6px;
+  margin-top: 7px;
+  margin-right: 0.625rem;
+  background-color: #37184E;
+  border-radius: 12px;
+}
+
+.featureSectionCardPointList3 .featureSectionCardPointDesc {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #37184E;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardRight {
+  width: 50%;
+}
+
+.featureSectionCardImg {
+  max-width: 480px;
+  width: 100%;
+}
+
+/* graph section  */
+.graphSection {
+  padding: 6.25rem 20px;
+  background-color: #1B0C27;
+}
+
+.graphSectionHeading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+  letter-spacing: -2px;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.graphSectionImg {
+  max-width: 1192px;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.graphSectionCardList {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1;
+}
+
+.graphSectionCard {
+  width: 33.33%;
+}
+
+.graphSectionCardContentWrap{
+  margin: auto;
+  width: fit-content;
+}
+
+.graphSectionCardHeading {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #F3EBF9;
+  margin-bottom: 1.25rem;
+}
+
+.graphSectionCardDescList {
+  gap: 12px;
+}
+
+.graphSectionCardDescIcon {
+  min-width: 2px;
+  height: 6px;
+  border-radius: 12px;
+  background-color: #E43F71;
+  margin-top: 7px;
+  margin-right: 0.625rem;
+}
+
+.graphSectionCardDesc {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #D0B1E7;
+  margin-bottom: 0px;
+}
+
+.graphSectionCardDesc2 {
+  max-width: 195px;
+}
+
+.graphSectionCardImgWrap {
+  display: none;
+}
+
+.graphSectionCardImg {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.graphSectionCardImgText {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  color: #8C7A9A;
+  margin-bottom: 0px;
+}
+
+/* how section  */
+.howSection {
+  padding: 6.25rem 20px;
+}
+
+.howSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -1.76px;
+  margin-bottom: 4rem;
+  max-width: 740px;
+}
+
+.howSectionCardList {
+  max-width: 990px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.howSectionCard1 {
+  width: 50%;
+}
+
+.howSectionCardImg {
+  width: 100%;
+}
+
+.howSectionCard2 {
+  width: 50%;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #eed6f7;
+}
+
+.howSectionCardPointList {
+  gap: 2.5rem;
+}
+
+.howSectionCardPoint {
+  gap: 0.625rem;
+}
+
+.howSectionCardPoint svg {
+  min-width: 1.5rem;
+  width: 1.5rem;
+}
+
+.howSectionCardPointText {
+  color: #370012;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: -0.36px;
+  margin-bottom: 0px;
+}
+
+/* number section  */
+.numberSection {
+  padding: 6.25rem 20px;
+  background: #200a2b;
+}
+
+.numberSectionHeading {
+  color: #fff;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -0.88px;
+  margin-bottom: 4rem;
+}
+
+.numberSectionCardList {
+  gap: 2.25rem;
+  max-width: 990px;
+  width: 100%;
+}
+
+.numberSectionCard {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.04);
+  gap: 1.875rem;
+}
+
+.numberSectionCard1 {
+  background: #321045;
+}
+
+.numberSectionCard2 {
+  background: #291236;
+}
+
+.numberSectionCard3 {
+  background: #26192e;
+}
+
+.numberSectionCardNumWrap {
+  width: calc(33.33% - ((1.875rem * 2) / 3));
+}
+
+.numberSectionCardNum {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+  letter-spacing: -2.8px;
+  margin-bottom: 4px;
+}
+
+.numberSectionCardNumText {
+  line-height: 1.25rem;
+  margin-bottom: 0px;
+}
+
+.numberSectionCard1 .numberSectionCardNumText {
+  color: #ddaeef;
+}
+
+.numberSectionCard2 .numberSectionCardNumText {
+  color: #ae8dc0;
+}
+
+.numberSectionCard3 .numberSectionCardNumText {
+  color: #ad92bd;
+}
+
+/* secure section  */
+.secureSection {
+  padding: 6.25rem 20px 5rem;
+}
+
+.secureSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -1.76px;
+  margin-bottom: 4rem;
+}
+
+.secureSectionImgList {
+  gap: 1.875rem;
+  max-width: 1192px;
+  width: 100%;
+}
+
+.secureSectionImgWrap {
+  width: calc(25% - ((1.875rem * 3) / 4));
+  text-align: center;
+}
+
+.secureSectionImg {
+  max-width: 120px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.secureSectionImgText {
+  color: #411354;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-bottom: 0px;
+}
+
+/* promise section  */
+.promiseSection {
+  padding: 5rem 20px 6.25rem;
+}
+
+.promiseSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.375rem;
+  letter-spacing: -1.76px;
+  margin-bottom: 0.75rem;
+}
+
+.promiseSectionDesc {
+  color: #411354;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+  max-width: 886px;
+}
+
+.promiseSectionCardList {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.promiseSectionCard {
+  width: calc(25% - ((1.875rem * 3) / 4));
+  padding: 1.25rem;
+  border-radius: 8px;
+  background: #f7ebfb;
+}
+
+.promiseSectionCardStep {
+  color: #1c0109;
+  font-family: "Red Hat Text";
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.promiseSectionCardIcon {
+  width: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.promiseSectionCardDesc {
+  color: #370012;
+  line-height: 1.25rem;
+  letter-spacing: -0.32px;
+  margin-bottom: 0px;
+}
+
+/* insights section  */
+.insightsSection {
+  padding: 6.25rem 20px;
+  background: #f7ebfb;
+}
+
+.insightsSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -1.76px;
+  margin-bottom: 3.25rem;
+}
+
+.insightsSectionCardList {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.insightsSectionCard {
+  width: 33.33%;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.insightsSectionCardImgWrap {
+  overflow: hidden;
+}
+
+.insightsSectionCardImg {
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+
+.insightsSectionCard:hover .insightsSectionCardImg {
+  scale: 1.05;
+}
+
+.insightsSectionCardContentWrap {
+  padding: 1.25rem;
+}
+
+.insightsSectionCardYear {
+  color: #8323ac;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.insightsSectionCardHeading {
+  color: #200a2b;
+  font-family: "Red Hat Text";
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: -0.96px;
+  margin-bottom: 0px;
+}
+
+/* cta section  */
+.ctaSection {
+  padding: 6.25rem 20px;
+  background: #411354;
+}
+
+.ctaSectionHeading {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -1.6px;
+  margin-bottom: 2.75rem;
+  max-width: 932px;
+}
+
+.ctaSectionHeading span {
+  color: #b889dc;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+  }
+
+  .heroSection > div {
+    width: 100%;
+  }
+
+  .featureSection {
+    padding-bottom: 6.25rem;
+  }
+
+  .featureSectionHeading {
+    margin-bottom: 5rem;
+  }
+
+  .featureSectionCardList {
+    gap: 5rem;
+  }
+
+  .featureSectionCard {
+    flex-direction: column;
+  }
+
+  .featureSectionCard > div {
+    width: 100%;
+  }
+
+  .featureSectionCardHeading {
+    font-size: 1.875rem;
+  }
+
+  .featureSectionCardPointList1>div,
+  .featureSectionCardPointList2>div,
+  .featureSectionCardPointList3>div {
+    width: 100% !important;
+  }
+
+  .featureSectionCardPointList1 .featureSectionCardPointHeading,
+  .featureSectionCardPointList3 .featureSectionCardPointHeading {
+    font-size: 1.125rem;
+  }
+
+  .featureSectionCardPointList1 .featureSectionCardPointDesc,
+  .featureSectionCardPointList2 .featureSectionCardPointText,
+  .featureSectionCardPointList3 .featureSectionCardPointDesc {
+    font-size: 1rem;
+  }
+
+  .featureSectionCardPointList2 .featureSectionCardPoint svg {
+    margin-top: 0px;
+  }
+
+  .featureSectionCardPointList3 .featureSectionCardPointDescIcon {
+    margin-top: 4px;
+  }
+
+  .graphSectionHeading {
+    font-size: 2.5rem;
+  }
+
+  .graphSectionImg {
+    display: none;
+  }
+
+  .graphSectionCardList {
+    flex-direction: column;
+    gap: 4.75rem;
+  }
+
+  .graphSectionCardList>div {
+    width: 100%;
+  }
+
+  .graphSectionCardContentWrap {
+    margin: 20px;
+  }
+
+  .graphSectionCardHeading {
+    font-size: 2rem;
+  }
+
+  .graphSectionCardDescIcon {
+    margin-top: 4px;
+  }
+
+  .graphSectionCardDesc {
+    font-size: 1.125rem;
+  }
+
+  .graphSectionCardImgWrap {
+    display: block;
+  }
+
+  .howSectionCardList {
+    flex-direction: column;
+  }
+
+  .howSectionCardList > div {
+    width: 100%;
+  }
+
+  .numberSectionCardList {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .numberSectionCard {
+    flex-direction: column;
+    width: calc(50% - (2.25rem / 2));
+  }
+
+  .numberSectionCardNumWrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .secureSectionImgWrap {
+    width: calc(50% - (1.875rem / 2));
+  }
+
+  .promiseSectionCard {
+    width: calc(50% - (1.875rem / 2));
+  }
+
+  .insightsSectionCardList {
+    flex-direction: column;
+  }
+
+  .insightsSectionCardList > a {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .serviceSectionCard {
+    width: 100%;
+  }
+
+  .numberSectionCard {
+    width: 100%;
+  }
+}

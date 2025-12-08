@@ -1,0 +1,472 @@
+/* hero section  */
+
+.heroSectionWrap {
+  padding: 10.375rem 20px 0px;
+  background-color: #F3EBF9;
+}
+
+.heroSection {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.heroSectionLeft {
+  width: 53%;
+}
+
+.heroSectionHeading {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #E43F71;
+  margin-bottom: 1.25rem;
+}
+
+.heroSectionDesc {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: #37184E;
+  margin-bottom: 1rem;
+  max-width: 475px;
+}
+
+.heroSectionSubHeading {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #37184E;
+  margin-bottom: 3rem;
+}
+
+.heroSectionSubHeading span {
+  color: #E43F71;
+}
+
+.heroSectionRight {
+  width: 47%;
+}
+
+.heroSectionImg {
+  width: 100%;
+}
+
+/* feature section */
+.featureSection {
+  padding: 6.25rem 20px 3.75rem;
+}
+
+.featureSectionHeading {
+  font-weight: 700;
+  font-size: 2.75rem;
+  line-height: 3.375rem;
+  color: #1B0C27;
+  margin-bottom: 3.75rem;
+}
+
+.featureSectionCardList {
+  gap: 7.5rem;
+  max-width: 1192px;
+}
+
+.featureSectionCard {
+  gap: 1.875rem;
+}
+
+.featureSectionCardRev {
+  flex-direction: row-reverse;
+}
+
+.featureSectionCardLeft {
+  width: 50%;
+}
+
+.featureSectionCardHeading {
+  color: #1B0C27;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: -1.44px;
+  margin-bottom: 0.75rem;
+}
+
+.featureSectionCardDesc {
+  color: #37184E;
+  line-height: 1.375rem;
+  margin-bottom: 0px;
+}
+
+.featureSectionCardRight {
+  width: 50%;
+}
+
+.featureSectionCardImg {
+  max-width: 480px;
+  width: 100%;
+}
+
+/* quality section  */
+.qualitySectionWrap {
+  padding: 3.75rem 20px 6.25rem;
+}
+
+.qualitySection {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.qualitySectionLeft {
+  width: 50%;
+}
+
+.qualitySectionImg {
+  max-width: 478px;
+  width: 100%;
+}
+
+.qualitySectionRight {
+  width: 50%;
+}
+
+.qualitySectionHeading {
+  color: #1B0C27;
+  font-family: "Red Hat Text";
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  letter-spacing: -1.44px;
+  margin-bottom: 2rem;
+}
+
+.qualitySectionPointList {
+  gap: 1.25rem;
+}
+
+.qualitySectionPoint {
+  gap: 0.625rem;
+}
+
+.qualitySectionPointIcon {
+  min-width: 1.5rem;
+}
+
+.qualitySectionPointText {
+  color: #2D0612;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: -0.36px;
+  margin-bottom: 0px;
+}
+
+/* why section  */
+.whySection {
+  padding: 6.25rem 20px;
+  background: #1B0C27;
+}
+
+.whySectionHeading {
+  color: #FFF;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  letter-spacing: -1.76px;
+  max-width: 776px;
+  margin-bottom: 4rem;
+}
+
+.whySectionCardList {
+  max-width: 990px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.whySectionCard {
+  padding: 1.25rem;
+  border-radius: 8px;
+  background: #37184E;
+  width: calc(33.33% - ((1.875rem * 2) / 3));
+}
+
+.whySectionCardIcon {
+  width: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.whySectionCardDesc {
+  color: #E7D8F3;
+  line-height: 1.375rem;
+  margin-bottom: 0px;
+}
+
+/* legacy section  */
+.legacySection {
+  padding: 6.25rem 20px 0px;
+  background: #F3EBF9;
+}
+
+.legacySectionHeading {
+  color: #1B0C27;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  letter-spacing: -1.76px;
+  max-width: 946px;
+  margin-bottom: 2.5rem;
+}
+
+.legacySectionTimeLine {
+  max-width: 990px;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2.5rem 0px 12.5rem;
+  gap: 10.125rem;
+  position: relative;
+  z-index: 0;
+}
+
+.legacySectionCenterLine {
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  top: 0px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  background: #D0B1E7;
+  z-index: -1;
+}
+
+.legacySectionCard {
+  gap: 1.875rem;
+}
+
+.legacySectionCardRev {
+  flex-direction: row-reverse;
+}
+
+.legacySectionCardLeft {
+  width: 50%;
+}
+
+.legacySectionCardBox {
+  position: relative;
+  width: 90%;
+  padding: 1.375rem;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 3px 4px 12px 0 #C8B6D5;
+}
+
+.legacySectionCardBoxText {
+  color: #1B0C27;
+  line-height: 1.375rem;
+  margin-bottom: 0px;
+}
+
+.legacySectionCardBoxText span {
+  color: #E43F71;
+}
+
+.legacySectionCardBoxArrow {
+  position: absolute;
+  top: 10px;
+  left: calc(100% - 5px);
+}
+
+.legacySectionCardBoxArrowRev {
+  rotate: 180deg;
+  left: unset;
+  right: calc(100% - 5px);
+}
+
+.legacySectionCardRight {
+  width: 50%;
+  width: fit-content;
+}
+
+.legacySectionYear {
+  padding: 6px 2rem;
+  border-radius: 100px;
+  border: 8px solid #F3EBF9;
+  background: #E7D8F3;
+  color: #6D2F9D;
+  font-family: Sora;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  margin-bottom: 0px;
+}
+
+/* team section  */
+.teamSection {
+  padding: 6.25rem 20px;
+}
+
+.teamSectionHeading {
+  color: #1B0C27;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 2.875rem;
+  letter-spacing: -1.76px;
+  margin-bottom: 4rem;
+}
+
+/* insights section  */
+.insightsSection {
+  padding: 6.25rem 20px;
+  background: #f7ebfb;
+}
+
+.insightsSectionHeading {
+  color: #200a2b;
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -1.76px;
+  margin-bottom: 3.25rem;
+}
+
+.insightsSectionCardList {
+  max-width: 1192px;
+  width: 100%;
+  gap: 1.875rem;
+}
+
+.insightsSectionCard {
+  width: 33.33%;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.insightsSectionCardImgWrap {
+  overflow: hidden;
+}
+
+.insightsSectionCardImg {
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+
+.insightsSectionCard:hover .insightsSectionCardImg {
+  scale: 1.05;
+}
+
+.insightsSectionCardContentWrap {
+  padding: 1.25rem;
+}
+
+.insightsSectionCardYear {
+  color: #8323ac;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.insightsSectionCardHeading {
+  color: #200a2b;
+  font-family: "Red Hat Text";
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: -0.96px;
+  margin-bottom: 0px;
+}
+
+/* cta section  */
+.ctaSection {
+  padding: 6.25rem 20px;
+  background: #37184E;
+}
+
+.ctaSectionHeading {
+  color: #FFF;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -1.6px;
+  max-width: 872px;
+  margin-bottom: 2.75rem;
+}
+
+.ctaSectionHeading span {
+  color: #B889DC;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+  }
+
+  .heroSection>div {
+    width: 100%;
+  }
+
+  .featureSectionCard {
+    flex-direction: column;
+  }
+
+  .featureSectionCard>div {
+    width: 100%;
+  }
+
+  .qualitySection {
+    flex-direction: column;
+  }
+
+  .qualitySection>div {
+    width: 100%;
+  }
+
+  .whySectionCard {
+    width: calc(50% - (1.875rem / 2));
+  }
+
+  .legacySectionTimeLine {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 6.25rem;
+  }
+
+  .legacySectionCard {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .legacySectionCardLeft {
+    width: 100%;
+  }
+
+  .legacySectionCardBox {
+    width: 100%;
+  }
+
+  .legacySectionCardBoxArrow {
+    rotate: 90deg;
+    top: calc(100% - 12px);
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .insightsSectionCardList {
+    flex-direction: column;
+  }
+
+  .insightsSectionCardList>a {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .whySectionCard {
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+.cardSectionCardList {
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+  gap: 1.875rem;
+}
+
+.cardSectionCard {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background-color: #37184E;
+}
+
+.cardSectionCardImg {
+  width: 100%;
+  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.cardSectionCard:hover .cardSectionCardImg {
+  transform: translateY(-10%);
+}
+
+.cardSectionCardTextWrap {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  background-color: rgba(27, 12, 39, 0.32);
+  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.cardSectionCard:hover .cardSectionCardTextWrap {
+  background-color: #37184E;
+}
+
+.cardSectionCardTextHeading {
+  font-weight: 700;
+  font-size: 1.188rem;
+  line-height: 1.25rem;
+  color: #fff;
+  margin-bottom: 1.25rem;
+}
+
+.cardSectionCardTextDesc {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #F3EBF9;
+  margin-bottom: 0px;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  max-width: 390px;
+}
+
+.cardSectionCard:hover .cardSectionCardTextDesc {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .cardSectionCardList {
+    flex-direction: column;
+  }
+
+  .cardSectionCardList>div {
+    width: 100%;
+  }
+
+  .cardSectionCardImg {
+    transform: translateY(-10%);
+  }
+
+  .cardSectionCardTextWrap {
+    height: fit-content;
+    background-color: #37184E;
+  }
+
+  .cardSectionCardTextDesc {
+    opacity: 1;
+  }
+}

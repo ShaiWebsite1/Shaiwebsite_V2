@@ -1,0 +1,49 @@
+.heroSectionImgWrap {
+  position: relative;
+}
+
+.heroSectionMainImg {
+  width: 100%;
+}
+
+.heroSectionImg {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background-color: #EBE8F7;
+  border-radius: 8.31px;
+}
+
+.heroSectionImg.active {
+  background-color: #ffffff;
+  box-shadow: 10.8px 9px 23.4px 0 #8B759C;
+}
+
+.heroSectionImg1 {
+  width: 32.8%;
+  left: 5.5%;
+  top: 24%;
+}
+
+.heroSectionImg1.active {
+  transform: rotate(9.61deg);
+}
+
+.heroSectionImg2 {
+  width: 51.2%;
+  right: 10.5%;
+  bottom: 12.5%;
+}
+
+.heroSectionImg2.active {
+  transform: rotate(-7deg);
+}
+
+.heroSectionImg3 {
+  width: 32.8%;
+  right: 8.5%;
+  top: 0%;
+}
+
+.heroSectionImg3.active {
+  transform: rotate(8.43deg);
+}

@@ -1,0 +1,39 @@
+.heroSectionImgWrap {
+  position: relative;
+}
+
+.heroSectionBaseImg {
+  width: 100%;
+}
+
+.heroSectionImg2Wrap {
+  position: absolute;
+  width: 45.5%;
+  top: -2.3%;
+  left: 0.5%;
+}
+
+.heroSectionImgInnerWrap {
+  position: relative;
+}
+
+.heroSectionImg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.heroSectionImg.active {
+  opacity: 1;
+}
+
+.heroSectionImg2.rotation1 {
+  transform: rotate(8.94deg);
+}
+
+.heroSectionImg2.rotation2 {
+  transform: rotate(-12.49deg);
+}

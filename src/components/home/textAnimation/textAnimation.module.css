@@ -1,0 +1,41 @@
+.textWrap {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+.text.active {
+  position: static;
+  animation: showup 0.3s ease-in-out forwards;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text.inactive {
+  animation: fadeout 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+  }
+}
