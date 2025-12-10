@@ -33,6 +33,7 @@ export async function POST(req) {
     });
 
     // ✅ 3. Send acknowledgment email to the user (CC your BD email)
+    /*
     await transporter.sendMail({
       from: `"Shai Health" <${process.env.EMAIL_USER}>`,
       to: email,
@@ -50,7 +51,7 @@ export async function POST(req) {
         <p>Warm regards,<br/>Shai Team</p>
       `,
     });
-
+    */
     return Response.json({ success: true, message: "Email sent successfully" });
   } catch (error) {
     console.error("Email error:", error);
