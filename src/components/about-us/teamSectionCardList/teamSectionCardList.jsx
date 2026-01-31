@@ -9,14 +9,54 @@ export default function TeamSectionCardList() {
   const [activeTab, setActiveTab] = useState(0);
   const teamSectionCardListRef = useRef([]);
 
+  
   const teamSectionTabList = [
+    "Advisory Board",
     "Board of Directors",
     "Executive Leadership",
-    "Operational Leadership",
-    "Advisory Board"
+    "Operational Leadership"
+    
   ]
 
   const teamSectionCardList = [
+    [
+      // {
+      //   img: "/images/about-us/teamSectionCard4Img1.webp",
+      //   name: "Larry B Deitch",
+      //   role: "",
+      //   link: "https://www.linkedin.com/in/larry-deitch-b1679b12/"
+      // },
+      {
+        img: "/images/about-us/teamSectionCard4Img2.webp",
+        name: "Deepa Krishnamurthy",
+        role: "",
+        link: ""
+      },
+      {
+        img: "/images/about-us/teamSectionCard4Img3.webp",
+        name: "Raju Venkatraman",
+        role: "",
+        link: "https://www.linkedin.com/in/raju-venkatraman-b573457/"
+      },
+      {
+        img: "/images/about-us/teamSectionCard4Img4.webp",
+        name: "Ramraj R",
+        role: "",
+        link: "https://elevarequity.com/team/r-ramaraj/"
+      },
+      {
+        img: "/images/about-us/teamSectionCard4Img5.webp",
+        name: "Ramu Veerappan",
+        role: "",
+        link: "https://www.linkedin.com/in/ramu-veerappan-b104a914/"
+      },
+      {
+        img: "/images/about-us/AdvBoardNiobisQueiro.png",
+        name: "Niobis Queiro",
+        role: "",
+        link: "https://www.linkedin.com/in/nio-queiro/"
+      },
+    ],
     [
       {
         img: "/images/about-us/teamSectionCard1Img1.webp",
@@ -94,40 +134,9 @@ export default function TeamSectionCardList() {
         role: "Head of Strategic Finance and Business Information",
         link: ""
       },
-    ],
-
-    [
-      // {
-      //   img: "/images/about-us/teamSectionCard4Img1.webp",
-      //   name: "Larry B Deitch",
-      //   role: "",
-      //   link: "https://www.linkedin.com/in/larry-deitch-b1679b12/"
-      // },
-      {
-        img: "/images/about-us/teamSectionCard4Img2.webp",
-        name: "Deepa Krishnamurthy",
-        role: "",
-        link: ""
-      },
-      {
-        img: "/images/about-us/teamSectionCard4Img3.webp",
-        name: "Raju Venkatraman",
-        role: "",
-        link: "https://www.linkedin.com/in/raju-venkatraman-b573457/"
-      },
-      {
-        img: "/images/about-us/teamSectionCard4Img4.webp",
-        name: "Ramraj R",
-        role: "",
-        link: "https://elevarequity.com/team/r-ramaraj/"
-      },
-      {
-        img: "/images/about-us/teamSectionCard4Img5.webp",
-        name: "Ramu Veerappan",
-        role: "",
-        link: "https://www.linkedin.com/in/ramu-veerappan-b104a914/"
-      },
     ]
+
+    
   ]
 
   useEffect(()=>{
@@ -192,3 +201,4 @@ export default function TeamSectionCardList() {
     </>
   )
 }
+
