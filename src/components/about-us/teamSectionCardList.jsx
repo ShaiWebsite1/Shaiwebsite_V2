@@ -8,7 +8,6 @@ import linkedin from "@/../public/images/about-us/linkedin.svg";
 export default function TeamSectionCardList() {
   const [activeTab, setActiveTab] = useState(0);
   const teamSectionCardListRef = useRef([]);
-
   const teamSectionTabList = [
     "Advisory Board",
     "Board of Directors",
@@ -200,3 +199,4 @@ export default function TeamSectionCardList() {
     </>
   )
 }
+
