@@ -15,7 +15,6 @@ export default function TeamSectionCardList() {
     "Advisory Board",
     "Executive Leadership",
     "Operational Leadership"
-    
   ]
 
   const teamSectionCardList = [
