@@ -11,14 +11,35 @@ export default function TeamSectionCardList() {
 
   
   const teamSectionTabList = [
-    "Advisory Board",
     "Board of Directors",
+    "Advisory Board",
     "Executive Leadership",
     "Operational Leadership"
     
   ]
 
   const teamSectionCardList = [
+
+    [
+      {
+        img: "/images/about-us/teamSectionCard1Img1.webp",
+        name: "Ramprasad M",
+        role: "",
+        link: "https://www.linkedin.com/in/ramprasad-m-b19a4b/?originalSubdomain=in"
+      },
+      {
+        img: "/images/about-us/teamSectionCard1Img2.webp",
+        name: "Pradeep Dadha",
+        role: "",
+        link: "https://www.linkedin.com/in/pradeep-dadha-a13aa944/?originalSubdomain=in"
+      },
+      {
+        img: "/images/about-us/teamSectionCard1Img3.webp",
+        name: "Swaminathan RP",
+        role: "",
+        link: "https://www.linkedin.com/in/rpswaminathan/?originalSubdomain=in"
+      },
+    ],
     [
       // {
       //   img: "/images/about-us/teamSectionCard4Img1.webp",
@@ -55,26 +76,6 @@ export default function TeamSectionCardList() {
         name: "Niobis Queiro",
         role: "",
         link: "https://www.linkedin.com/in/nio-queiro/"
-      },
-    ],
-    [
-      {
-        img: "/images/about-us/teamSectionCard1Img1.webp",
-        name: "Ramprasad M",
-        role: "",
-        link: "https://www.linkedin.com/in/ramprasad-m-b19a4b/?originalSubdomain=in"
-      },
-      {
-        img: "/images/about-us/teamSectionCard1Img2.webp",
-        name: "Pradeep Dadha",
-        role: "",
-        link: "https://www.linkedin.com/in/pradeep-dadha-a13aa944/?originalSubdomain=in"
-      },
-      {
-        img: "/images/about-us/teamSectionCard1Img3.webp",
-        name: "Swaminathan RP",
-        role: "",
-        link: "https://www.linkedin.com/in/rpswaminathan/?originalSubdomain=in"
       },
     ],
     [
@@ -201,4 +202,3 @@ export default function TeamSectionCardList() {
     </>
   )
 }
-
